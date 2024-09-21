@@ -8,6 +8,7 @@
 
 body{
     background-color: rgb(0, 0, 0);
+    background-image: url("images/black.gif");
     height: 100vh;
 }
 
@@ -69,10 +70,16 @@ header .btn-contato button:hover{
 
 /* Estilo topo site*/
 section.topo-site{
-    padding: 150px 10%;
+    padding: 120px 10%;
     display: flex;
-    align-items: center;
     font-size: 50px;
+}
+
+section p{
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 section h1{
@@ -115,3 +122,52 @@ section .links-redes ul a img:hover {
         transform: scale(1.20);
     }
 }
+
+/*Section sobre mim*/
+
+section.sobre{
+    padding: 240px 10%;
+}
+
+section h2{
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+
+}
+
+section h3{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+section p1{
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.sobre .flex{
+/* Define um tamanho máximo para o bloco de texto */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-sobre-mim{
+    display: flex;
+    flex-direction: column; /* Coloca o título e o texto em uma coluna */
+    max-width: 50%;
+}
+
+.sobre img {
+    width: 400px; /* Tamanho da imagem */
+    height: auto;
+    margin-left: 100px; /* Espaçamento entre o texto e a imagem */
+}
+
