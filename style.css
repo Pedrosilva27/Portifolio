@@ -124,28 +124,25 @@ section .links-redes ul a img:hover {
 }
 
 /*Section sobre mim*/
-
 section.sobre{
-    padding: 240px 10%;
+    padding: 120px 10%;
 }
 
-section h2{
+h2{
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
     margin-bottom: 90px;
-
 }
 
-section h3{
+h3{
     color: #fff;
     font-size: 20px;
     display: flex;
     justify-content: left;
 }
-
-section p1{
+p1{
     color: #fff;
     font-size: 15px;
     display: flex;
@@ -153,21 +150,62 @@ section p1{
 }
 
 .sobre .flex{
-/* Define um tamanho máximo para o bloco de texto */
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
 }
 
 .texto-sobre-mim{
     display: flex;
-    flex-direction: column; /* Coloca o título e o texto em uma coluna */
+    flex-direction: column;
     max-width: 50%;
 }
 
 .sobre img {
-    width: 400px; /* Tamanho da imagem */
+    width: 400px;
     height: auto;
-    margin-left: 100px; /* Espaçamento entre o texto e a imagem */
+    margin-left: 100px;
 }
 
+/* Section habilidades */
+section .habilidades{
+    padding: 120px 10%;
+}
+
+.habilidades .flex{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 90px;  
+}
+
+.flex-item{
+    background-color: #fff;
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.flex-item img{
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+h4{
+    font-size: 20px;
+    text-decoration: underline 2px;
+}
